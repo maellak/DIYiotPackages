@@ -1,4 +1,4 @@
-Packages for `avrdude` and required libraries for OpenWRT Barrier Breaker (14.07).
+Packages for `avrdude` and required libraries for OpenWRT Barrier Breaker (14.07) on Raspberry Pi.
 
 Place the files in the OpenWRT filesystem (e.g. with `scp`) and install with:
 
