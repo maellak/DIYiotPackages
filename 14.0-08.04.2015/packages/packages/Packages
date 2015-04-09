@@ -1,0 +1,1098 @@
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 96439
+Filename: libjpeg_9a-1_ar71xx.ipk
+Size: 97133
+MD5Sum: 609750ba31e3709c318387c2749a77ac
+SHA256sum: d85f634bff3e1e3c2e35f946c43f6d1148db37b1909aa9bbf4b4d39f3fe2869e
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmcrypt
+Version: 2.5.8-2
+Depends: libc
+Source: feeds/packages/libs/libmcrypt
+License: LGPLv2.1
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 60788
+Filename: libmcrypt_2.5.8-2_ar71xx.ipk
+Size: 60860
+MD5Sum: bf0d5ca9b4f949f63770970349a76774
+SHA256sum: 1361618433b1ecab6a25a1c22813568e1a417f5b2e0222592250e12c9677864c
+Description:  libmcrypt is a cryptographic library that conveniently brings
+ together a variety of ciphers for convenient use.
+
+Package: libmysqlclient
+Version: 5.1.73-1
+Depends: libc, uclibcxx, zlib
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 171351
+Filename: libmysqlclient_5.1.73-1_ar71xx.ipk
+Size: 164094
+MD5Sum: c6dfcd01c9bd2c755c9fb30d97d65f95
+SHA256sum: 055a72d241999e0d11c8c726b2e13899cc250f1ae11419c424e373d24d52ff96
+Description:  MySQL client library
+
+Package: libopenldap
+Version: 2.4.39-2
+Depends: libc, libopenssl, libsasl2, libpthread
+Source: feeds/packages/libs/openldap
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 174135
+Filename: libopenldap_2.4.39-2_ar71xx.ipk
+Size: 175124
+MD5Sum: 1d8a03f3edcc6702594da14a9e7b3f38
+SHA256sum: 6dd4cc9cefb6c5b20efa1655bca6e9d1af8f6a454c842dd4e412f78b589944dd
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpcre
+Version: 8.36-1
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ar71xx
+Installed-Size: 79813
+Filename: libpcre_8.36-1_ar71xx.ipk
+Size: 80710
+MD5Sum: 738ffeb9b1946aaba68185e9d034f233
+SHA256sum: 6a0960be08229b957577b2c8cd693d5fb45994554f61005f4f98684dedc5804c
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.2.52-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 115666
+Filename: libpng_1.2.52-1_ar71xx.ipk
+Size: 116565
+MD5Sum: 33e617f7efd5f32099abfd2e3fd965ae
+SHA256sum: ba9fd7eff9e97b5feda6794aced078513d33121246f51448b27299db7186f437
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 9.0.17-1
+Depends: libc, zlib, libreadline, libpthread, libncurses, shadow-utils, shadow-su
+Source: feeds/packages/libs/postgresql
+License: PostgreSQL
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 54133
+Filename: libpq_9.0.17-1_ar71xx.ipk
+Size: 54614
+MD5Sum: fe43f3937b9dea80890ee28fd932f96a
+SHA256sum: af42bc945ad880cd9f47e9ff7d3d610af0fd299890605cb348d4de7f84a35102
+Description:  PostgreSQL client library.
+
+Package: libsasl2
+Version: 2.1.26-3
+Depends: libc, libopenssl
+Source: feeds/packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 74412
+Filename: libsasl2_2.1.26-3_ar71xx.ipk
+Size: 75231
+MD5Sum: 5f7bcdecdbf5432bc093655ca5bf932e
+SHA256sum: a0531aa7b6a00386729deeb2b619c48953609584dc9caad1d2bd6d8b2eedee21
+Description:  A general purpose authentication library
+
+Package: libsqlite3
+Version: 3080803-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 335587
+Filename: libsqlite3_3080803-1_ar71xx.ipk
+Size: 335937
+MD5Sum: 280e80867ed669068cf95e15478aa360
+SHA256sum: 3598f92d7a2e7a1682f1ecd783d63ed98fdb0ab231a516eec7ddc0d2b0c81964
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 444625
+Filename: libxml2_2.9.2-3_ar71xx.ipk
+Size: 442398
+MD5Sum: 9f315be52a2807845e0c56c9dc6ee10a
+SHA256sum: 49691e6fc67a25204dbb7316f51f1e3fa4b4d8182833b40b5bf39ddf1b141c8a
+Description:  A library for manipulating XML and HTML resources.
+
+Package: php5-cgi
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 973119
+Filename: php5-cgi_5.6.7-1_ar71xx.ipk
+Size: 972114
+MD5Sum: 2ee766b5447245582ac6f2a8cf2faedc
+SHA256sum: 84adf02bcf8e9d2fd5369af4bf576fc500975117da8a029badde88a11be9c79f
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP5 interpreter.
+
+Package: php5-cli
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 980064
+Filename: php5-cli_5.6.7-1_ar71xx.ipk
+Size: 978879
+MD5Sum: 00ba7fd61263b1faec9fbde3b71efa09
+SHA256sum: 8bd67dd489361dd602355ebe343a36ed91ee67416819cd968e3af77e0ebb76ce
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP5 interpreter.
+
+Package: php5-fastcgi
+Version: 5.6.7-1
+Depends: libc, php5, php5-cgi
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 543
+Filename: php5-fastcgi_5.6.7-1_ar71xx.ipk
+Size: 1340
+MD5Sum: cdbc1e37fab90040d30afbee9d49dd12
+SHA256sum: 759b2afb3c22961047c6d6fb44144f8892fce77e2e523917dc792f3b0b87d806
+Description:  As FastCGI support is now a core feature the php5-fastcgi package now depends
+ on the php5-cgi package, containing just the startup script.
+
+Package: php5-fpm
+Version: 5.6.7-1
+Depends: libc, php5, php5-cgi
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 1014743
+Filename: php5-fpm_5.6.7-1_ar71xx.ipk
+Size: 1013627
+MD5Sum: 9614d0d8b23d2eb6e7ad845a5d6515d6
+SHA256sum: c5a845172b7a04f5fbbd495a7c304746c446b26a18e31055eab64671437258a1
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP5 interpreter.
+
+Package: php5-mod-calendar
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 9426
+Filename: php5-mod-calendar_5.6.7-1_ar71xx.ipk
+Size: 10087
+MD5Sum: 0f64e3ee3a0ad982e8b616861987321d
+SHA256sum: 589a8fef9ad007f7d12c411d3198677e0ec46e89746cb1ff1e6cc51c47b3249b
+Description:  Calendar shared module
+
+Package: php5-mod-ctype
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 2293
+Filename: php5-mod-ctype_5.6.7-1_ar71xx.ipk
+Size: 3036
+MD5Sum: a4ca44adf37c94fd85e9341201073e3e
+SHA256sum: 7d3c03dbb7bf0303b13678fd63e4d8ffda7f4ad0c5bc4e94e0ca7692c4292d54
+Description:  Ctype shared module
+
+Package: php5-mod-curl
+Version: 5.6.7-1
+Depends: libc, php5, libcurl
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 24898
+Filename: php5-mod-curl_5.6.7-1_ar71xx.ipk
+Size: 25467
+MD5Sum: 7dd8c96e62f203a68cc8d8181c330782
+SHA256sum: 5b5abe8525d9548c6063615c6783de8f134d79e3def53f91dcc16f5c02860db5
+Description:  cURL shared module
+
+Package: php5-mod-dom
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 42387
+Filename: php5-mod-dom_5.6.7-1_ar71xx.ipk
+Size: 42836
+MD5Sum: d81728526e602f3464aa1c5e959f9eaf
+SHA256sum: de224a3271f2398c17201c92b3ca387b90069712cd3883abc6a66b27274eebeb
+Description:  DOM shared module
+
+Package: php5-mod-exif
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 21462
+Filename: php5-mod-exif_5.6.7-1_ar71xx.ipk
+Size: 21441
+MD5Sum: 118efb4309652ec98ab92aee00a46e8c
+SHA256sum: f4217d5bceef8ce0f5babf323612924df1f6c68106efa3d3623691aad5e240b6
+Description:  EXIF shared module
+
+Package: php5-mod-fileinfo
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 243583
+Filename: php5-mod-fileinfo_5.6.7-1_ar71xx.ipk
+Size: 241250
+MD5Sum: 3a51b6e791c0c6eb4884b0e0f6ac19e9
+SHA256sum: f3e4856872abfac392f4a13131673b6940bac2decc7afbb1e7a642e54c082b37
+Description:  Fileinfo shared module
+
+Package: php5-mod-ftp
+Version: 5.6.7-1
+Depends: libc, php5, libopenssl
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 13847
+Filename: php5-mod-ftp_5.6.7-1_ar71xx.ipk
+Size: 14519
+MD5Sum: 70e52819097755fbc3aa71a61b2d6069
+SHA256sum: 4212008563cd377e2945fa95e09b1a9de6d1aefd97a66d4c4bfceb20cb52055b
+Description:  FTP shared module
+
+Package: php5-mod-gd
+Version: 5.6.7-1
+Depends: libc, php5, libjpeg, libpng
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 94881
+Filename: php5-mod-gd_5.6.7-1_ar71xx.ipk
+Size: 95161
+MD5Sum: dc6b8bc89421c639c95d078b12f235c1
+SHA256sum: eef1a1839d5e03c5fb05f7f3165894b412c956e21181a6e61b31b2e151dfef8b
+Description:  GD graphics shared module
+
+Package: php5-mod-gettext
+Version: 5.6.7-1
+Depends: libc, php5, libintl-full
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 2600
+Filename: php5-mod-gettext_5.6.7-1_ar71xx.ipk
+Size: 3340
+MD5Sum: 437b89a7531e5d3ecb3180cadb0b7503
+SHA256sum: ecba96a87985184bcd4102b084b385160175d72f2812b06e8eefe714834bbd8f
+Description:  Gettext shared module
+
+Package: php5-mod-gmp
+Version: 5.6.7-1
+Depends: libc, php5, libgmp
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 12678
+Filename: php5-mod-gmp_5.6.7-1_ar71xx.ipk
+Size: 13379
+MD5Sum: 40d9027cd962385bcbba82b5e6d52317
+SHA256sum: 1ba93a3a40d4764b4742490e247466c95844c06ab4c949ef13dfb25fba5d088f
+Description:  GMP shared module
+
+Package: php5-mod-hash
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 91137
+Filename: php5-mod-hash_5.6.7-1_ar71xx.ipk
+Size: 91006
+MD5Sum: a4816f5c05b318fffbdb4417302b4dd6
+SHA256sum: b9f8e1376eade5ae4ec95349067a036f01c3f7e723454ccdb2673a38d50415a2
+Description:  Hash shared module
+
+Package: php5-mod-iconv
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 15246
+Filename: php5-mod-iconv_5.6.7-1_ar71xx.ipk
+Size: 15992
+MD5Sum: e906397dba090b70dc5c4b3fa480cf61
+SHA256sum: 5445a7db2248321cebdac6175792afde045e1d9f9dee28ee4b664d12ae89cdaf
+Description:  iConv shared module
+
+Package: php5-mod-json
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 11897
+Filename: php5-mod-json_5.6.7-1_ar71xx.ipk
+Size: 12646
+MD5Sum: c3d268b02c681bf9f1b2456cb797b394
+SHA256sum: 2171962fd3f4617afa4979d166857c53820b272a2917a3e51da900714a6226a3
+Description:  JSON shared module
+
+Package: php5-mod-ldap
+Version: 5.6.7-1
+Depends: libc, php5, libopenldap, libsasl2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 17917
+Filename: php5-mod-ldap_5.6.7-1_ar71xx.ipk
+Size: 18551
+MD5Sum: afc24400890ff6e385d9ddad230289ec
+SHA256sum: 634c6d4c8cf981fea3f112a97ada39c7e9c568f0f832a2ac20df795ce77a3d7f
+Description:  LDAP shared module
+
+Package: php5-mod-mbstring
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 633846
+Filename: php5-mod-mbstring_5.6.7-1_ar71xx.ipk
+Size: 627945
+MD5Sum: 2f88239a75eaeed38f13ce02892db4df
+SHA256sum: 805b6aaac3298ceb5bb545c69b7850b05f8d3cf27de656a6b2c609c526e953b2
+Description:  MBString shared module
+
+Package: php5-mod-mcrypt
+Version: 5.6.7-1
+Depends: libc, php5, libmcrypt, libltdl
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 11513
+Filename: php5-mod-mcrypt_5.6.7-1_ar71xx.ipk
+Size: 12182
+MD5Sum: 3b17fc1ec7b14cc7219428c44d851c59
+SHA256sum: 1b1a2408d7c4735c75a2dad3e2f889d07dd774d6580a74850f509b2621d25934
+Description:  Mcrypt shared module
+
+Package: php5-mod-mysql
+Version: 5.6.7-1
+Depends: libc, php5, libmysqlclient
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 14141
+Filename: php5-mod-mysql_5.6.7-1_ar71xx.ipk
+Size: 14763
+MD5Sum: 0a4b3457eb40ab3484dd8eecee76d5da
+SHA256sum: d15431db688eda1b6ffcb622a3415f4ddcc821959976fb9d8caa2933eedf1e8e
+Description:  MySQL shared module
+
+Package: php5-mod-mysqli
+Version: 5.6.7-1
+Depends: libc, php5, libmysqlclient
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 33813
+Filename: php5-mod-mysqli_5.6.7-1_ar71xx.ipk
+Size: 34187
+MD5Sum: 6ae04e6196524cc5dab4421e0fecac0d
+SHA256sum: 167dbcfc45498d3251ac97df6b63413150588990b791e3a5d20cd818af68bafc
+Description:  MySQL Improved Extension shared module
+
+Package: php5-mod-openssl
+Version: 5.6.7-1
+Depends: libc, php5, libopenssl
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 43806
+Filename: php5-mod-openssl_5.6.7-1_ar71xx.ipk
+Size: 43841
+MD5Sum: 47df4077f6ea34afb3767c8640e6f4c1
+SHA256sum: db5cdde16ce1585f13f513a8a7b9c0daba61bfff6b2fdef85be78ef515dc4630
+Description:  OpenSSL shared module
+
+Package: php5-mod-pcntl
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 8680
+Filename: php5-mod-pcntl_5.6.7-1_ar71xx.ipk
+Size: 9438
+MD5Sum: f4bcd5c56b28971e083684289d7b8bbb
+SHA256sum: 603cb503aa4f386651e91f6877684a26eadce8859ab8f90a940c807a62c1d254
+Description:  PCNTL shared module
+
+Package: php5-mod-pdo-mysql
+Version: 5.6.7-1
+Depends: libc, php5, php5-mod-pdo, libmysqlclient
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 10028
+Filename: php5-mod-pdo-mysql_5.6.7-1_ar71xx.ipk
+Size: 10831
+MD5Sum: a37ff91358371a2b8ba33f8a0e4789f7
+SHA256sum: d916087a0e613e9d29d193000d78d7af5076f1bd1d8c77e0d0118bff7c25c0a9
+Description:  PDO driver for MySQL shared module
+
+Package: php5-mod-pdo-pgsql
+Version: 5.6.7-1
+Depends: libc, php5, php5-mod-pdo, libpq
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 13828
+Filename: php5-mod-pdo-pgsql_5.6.7-1_ar71xx.ipk
+Size: 14595
+MD5Sum: fc2ce9e333713ea0d607850797070171
+SHA256sum: 4932010ff6bed649a085511dbf69c57b5f248856e6b274da1b53a6d3aa042aa5
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php5-mod-pdo-sqlite
+Version: 5.6.7-1
+Depends: libc, php5, php5-mod-pdo, libsqlite3, librt
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 8622
+Filename: php5-mod-pdo-sqlite_5.6.7-1_ar71xx.ipk
+Size: 9420
+MD5Sum: 2da3d0c4df989cf8abe12f18b15d2ab7
+SHA256sum: 2ff1f6b55f227c1e04376c80b8c1996717f6e0042dd7429ccb67c78c71b3e8cb
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php5-mod-pdo
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 33581
+Filename: php5-mod-pdo_5.6.7-1_ar71xx.ipk
+Size: 33977
+MD5Sum: bb84643fb38aa9012b938094e55ab669
+SHA256sum: c9c00fb910df376b27509034ca18c713751fc5fa929ff014a0bdc569321624da
+Description:  PHP Data Objects shared module
+
+Package: php5-mod-pgsql
+Version: 5.6.7-1
+Depends: libc, php5, libpq
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 35483
+Filename: php5-mod-pgsql_5.6.7-1_ar71xx.ipk
+Size: 35799
+MD5Sum: b09f05e7cfc0642b178042d0d10e0628
+SHA256sum: 970ce16f57fc61a1ac200229255b34c738b84e000fe41b4a8afdb085621ffad6
+Description:  PostgreSQL shared module
+
+Package: php5-mod-session
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 24854
+Filename: php5-mod-session_5.6.7-1_ar71xx.ipk
+Size: 25569
+MD5Sum: da72678e1c1db909aa539aea82ee9bed
+SHA256sum: 8f0a14f8727ee45ec1e5d375a3d8749d9910ce87f94f432776517d96a5007793
+Description:  Session shared module
+
+Package: php5-mod-shmop
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 3271
+Filename: php5-mod-shmop_5.6.7-1_ar71xx.ipk
+Size: 4004
+MD5Sum: c749de00561e146aa46cea1f3167c2cb
+SHA256sum: e5f8eff55593720eb786aca277eb9c32e963776d8457c60ae021a07f833d3207
+Description:  Shared Memory shared module
+
+Package: php5-mod-simplexml
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 15913
+Filename: php5-mod-simplexml_5.6.7-1_ar71xx.ipk
+Size: 16591
+MD5Sum: f95611dad7493ab99a14a49adf3f1549
+SHA256sum: 7400702d5bbdde44f16f975a38af36d53e91f20a6b7f65aad6b88d775a767569
+Description:  SimpleXML shared module
+
+Package: php5-mod-soap
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 103848
+Filename: php5-mod-soap_5.6.7-1_ar71xx.ipk
+Size: 104323
+MD5Sum: ad4192c6706d9f5ae6b1ff5f5646b96c
+SHA256sum: ca6dcf5a530910589448f563db92d2927d76ebc51f8e496b6563d163ab90e9a8
+Description:  SOAP shared module
+
+Package: php5-mod-sockets
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 26415
+Filename: php5-mod-sockets_5.6.7-1_ar71xx.ipk
+Size: 27070
+MD5Sum: 1380afc9ea0a50974b590da9e2881ff6
+SHA256sum: 80367b7043cd69675c32bea0a63059ac254c2ebdf9e895e84ac43438134ac816
+Description:  Sockets shared module
+
+Package: php5-mod-sqlite3
+Version: 5.6.7-1
+Depends: libc, php5, libsqlite3
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 13929
+Filename: php5-mod-sqlite3_5.6.7-1_ar71xx.ipk
+Size: 14631
+MD5Sum: 1b4e07f0f02d6270443d4f84b5911095
+SHA256sum: d8512c9b41dfb09fedb6ebd78f13a4b68d499ed71d6458a6c6978c9a43993aa9
+Description:  SQLite3 shared module
+
+Package: php5-mod-sysvmsg
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 5042
+Filename: php5-mod-sysvmsg_5.6.7-1_ar71xx.ipk
+Size: 5785
+MD5Sum: fb73679946d099750830992ae8ebe2f4
+SHA256sum: 19aec7e520377fee491f2238c560e0046279e6c1f2f05bb03f487f637ef79bc9
+Description:  System V messages shared module
+
+Package: php5-mod-sysvsem
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 2997
+Filename: php5-mod-sysvsem_5.6.7-1_ar71xx.ipk
+Size: 3728
+MD5Sum: eb5c5acb2dd469054544e6cfd33dcf24
+SHA256sum: 7f27bba5d50a80774ad225291d4fcbd68e6d324174abb2309d96d645b2edf971
+Description:  System V shared memory shared module
+
+Package: php5-mod-sysvshm
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 3947
+Filename: php5-mod-sysvshm_5.6.7-1_ar71xx.ipk
+Size: 4689
+MD5Sum: 47d62b8c340a57ee49b5d2420f9a9e89
+SHA256sum: c6a37a46f88e03ab11895ea4aef748b71d989baa92da27118d9d9109d4cf1463
+Description:  System V semaphore shared module
+
+Package: php5-mod-tokenizer
+Version: 5.6.7-1
+Depends: libc, php5
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 5092
+Filename: php5-mod-tokenizer_5.6.7-1_ar71xx.ipk
+Size: 5728
+MD5Sum: e52938b19175dd4a7c656e695c72eae3
+SHA256sum: 24c6837ff0204f13fe1ffc6fd95d729aef818892c377705e42a449b54d20ec8d
+Description:  Tokenizer shared module
+
+Package: php5-mod-xml
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 14481
+Filename: php5-mod-xml_5.6.7-1_ar71xx.ipk
+Size: 15089
+MD5Sum: 16e387834de4c82c473df93a1a3355de
+SHA256sum: baee4d312d4fe765e9ee484d1e88a9a763f968243f81b900babf37f3622ae663
+Description:  XML shared module
+
+Package: php5-mod-xmlreader
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 8482
+Filename: php5-mod-xmlreader_5.6.7-1_ar71xx.ipk
+Size: 9231
+MD5Sum: 813e816f157778bf590275938c001267
+SHA256sum: 245f9fae1fbaa24fbadb0d0885551f8441814a845b1d6e3fcaea5a0780e4a991
+Description:  XMLReader shared module
+
+Package: php5-mod-xmlwriter
+Version: 5.6.7-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 8782
+Filename: php5-mod-xmlwriter_5.6.7-1_ar71xx.ipk
+Size: 9446
+MD5Sum: 994359fdce156db1150551117f29df21
+SHA256sum: 11d7c5bdc2b8a85af0a9b554cef3a959dfd5a64ecf2aab5ab73f62b23cbf0721
+Description:  XMLWriter shared module
+
+Package: php5-mod-zip
+Version: 5.6.7-1
+Depends: libc, php5, zlib
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 42282
+Filename: php5-mod-zip_5.6.7-1_ar71xx.ipk
+Size: 42989
+MD5Sum: f033eb681c779a181f6a80c067a92e7b
+SHA256sum: c3599cf83feaa65da1f7961fa4454e73b9d2391a918c5a7449c2a64ab6795d9b
+Description:  ZIP shared module
+
+Package: php5
+Version: 5.6.7-1
+Depends: libc, libpcre, zlib, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 3313
+Filename: php5_5.6.7-1_ar71xx.ipk
+Size: 4220
+MD5Sum: 39d6bbd3a065287c540f59306cbea5d4
+SHA256sum: 9cc373b2a20df5ba222f876b69589807cf5e7c6cdc913295a330619c29f5c957
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+
+Package: shadow-chage
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15397
+Filename: shadow-chage_4.2.1-4_ar71xx.ipk
+Size: 16152
+MD5Sum: 089e5c4f9f08870d48ebbe11832bdf0b
+SHA256sum: 098aedf72f18a777e9e4ab33e4001da385c036a4fc87bb1aae77ab06d26d9276
+Description:  Full version of standard chage utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-common
+Version: 4.2.1-4
+Depends: libc
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4732
+Filename: shadow-common_4.2.1-4_ar71xx.ipk
+Size: 5491
+MD5Sum: cc6bb5ad2de93049a0eca75dcf4602cd
+SHA256sum: f6df366e54e3cde2e3a2cd83ee4a355ef7ca4558e8c82c611005b87d6dab6b5d
+Description:  Shared definitions for the PLD Linux shadow utilities
+
+Package: shadow-groupadd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 13311
+Filename: shadow-groupadd_4.2.1-4_ar71xx.ipk
+Size: 14060
+MD5Sum: 7c0dcc5f2c7807dab5dfd0620afff8e5
+SHA256sum: e4b9f82eb5f8cbcc60fa3822fa60cd256c9c36d5592f8318fe634dff2aabbf21
+Description:  Full version of standard groupadd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupdel
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12014
+Filename: shadow-groupdel_4.2.1-4_ar71xx.ipk
+Size: 12770
+MD5Sum: da68438b7137488f5c1f337a9c28c2e1
+SHA256sum: 9c351abbbc76e11ebc0610eb62562c5ae7c762a20d7850b969ce441129ccc8d0
+Description:  Full version of standard groupdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmod
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 14885
+Filename: shadow-groupmod_4.2.1-4_ar71xx.ipk
+Size: 15658
+MD5Sum: c9223712aa49325e767547c715a55152
+SHA256sum: 605efc40763cc187380242ef2670230431106b01aa780de0b47b25744176e7c6
+Description:  Full version of standard groupmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groups
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2821
+Filename: shadow-groups_4.2.1-4_ar71xx.ipk
+Size: 3644
+MD5Sum: a056886631759544c5256eb97b8c87ee
+SHA256sum: 0e0bb50bfee539e0d8086805373d1d14118cf6f3b9e979bc95efd7fc8645e9be
+Description:  Full version of standard groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-passwd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15597
+Filename: shadow-passwd_4.2.1-4_ar71xx.ipk
+Size: 16273
+MD5Sum: bfd0613120d24376ea351986aa01b4e5
+SHA256sum: 80fd03c1074d1277020473f3f0172f6909683a939314340e8eb47c77b5d70293
+Description:  Full version of standard passwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-su
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15233
+Filename: shadow-su_4.2.1-4_ar71xx.ipk
+Size: 15944
+MD5Sum: 1f9b9007cacef6bec60975f8e110b48d
+SHA256sum: 83e647d59f42905c92a514d103271ed79c31b53d127a6d0ccc9f47aa1dbb3d99
+Description:  Full version of standard su utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-useradd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 25458
+Filename: shadow-useradd_4.2.1-4_ar71xx.ipk
+Size: 26070
+MD5Sum: 12215518c162fc790046e9d0f2d184c9
+SHA256sum: 94d00dabf8973aaf6b7d4c7caf5c79014ec306c0806443ff8bd3c7048d3f5891
+Description:  Full version of standard useradd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-userdel
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15007
+Filename: shadow-userdel_4.2.1-4_ar71xx.ipk
+Size: 15771
+MD5Sum: 959d095d3cfb91de48841b326d33945b
+SHA256sum: 6ed08cb4548889510b701e743efc0d277e9f021c8816d6630e43ed29ca15451b
+Description:  Full version of standard userdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-usermod
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 25514
+Filename: shadow-usermod_4.2.1-4_ar71xx.ipk
+Size: 26172
+MD5Sum: 73c03b28ed8d91f809e17f0a2b635121
+SHA256sum: 69d68f39eaf966a83f495a6c9a0b268b5bc9283ff39055fc4c78dd8870792b73
+Description:  Full version of standard usermod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-utils
+Version: 4.2.1-4
+Depends: libc
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: shadow-utils_4.2.1-4_ar71xx.ipk
+Size: 897
+MD5Sum: 9f726fb87ce48b6e3441dc0d4a5b3546
+SHA256sum: c6c35749fcfa0c6a53ee3b9ec254015e3afc94c49349bac0c625a1ebb1e85b3e
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadow
+Version: 4.2.1-4
+Depends: libc, shadow-chage, shadow-groupadd, shadow-groupdel, shadow-groupmod, shadow-groups, shadow-passwd, shadow-su, shadow-useradd, shadow-userdel, shadow-usermod
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: shadow_4.2.1-4_ar71xx.ipk
+Size: 948
+MD5Sum: 6665d3e8a45bd1fa4dfe80e8ccac3e5e
+SHA256sum: fb08bfb8b3ef35f36def7e009a23cbf8838e69b9b64bac7afa582fe987a0d798
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: zoneinfo-core
+Version: 2015b-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: ar71xx
+Installed-Size: 21440
+Filename: zoneinfo-core_2015b-1_ar71xx.ipk
+Size: 22117
+MD5Sum: bce41bea61f6d4fbf7679e7bb508a8c2
+SHA256sum: 7607b48642acf8114e894c3d932e45ca1bbc92453e2c7b54d772eea65b6b0a1a
+Description:  Zone Information (core)
+
