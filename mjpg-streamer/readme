@@ -1,1 +1,5 @@
 Packages for mjpg-streamer
+
+http://downloads.openwrt.org/barrier_breaker/14.07/brcm2708/generic/packages/base/kmod-video-uvc_3.10.49-1_brcm2708.ipk
+http://downloads.openwrt.org/attitude_adjustment/12.09/brcm2708/generic/packages/libjpeg_6b-1_brcm2708.ipk
+http://downloads.openwrt.org/attitude_adjustment/12.09/brcm2708/generic/packages/mjpg-streamer_r148-4_brcm2708.ipk
